@@ -1,0 +1,67 @@
+body{
+    
+    background-image: url(https://images.pexels.com/photos/2387532/pexels-photo-2387532.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: scroll;
+    background-size: cover;
+
+}
+#container{
+    width: 800px;
+    margin-top: 50px;
+    margin-left: 100px;
+    text-align: center;
+    background-color: white;
+}
+
+.div_cabecalho {
+    background-image: url(https://images.pexels.com/photos/3184454/pexels-photo-3184454.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-color: #6959CD;
+    text-align: center;
+    padding-top: 30px;
+    width: 800px;
+    height: 100px;
+    font-family: Arial;
+    font-size: 30px;
+    font-style: italic;
+    color: black;
+    font-weight: bold;
+}
+
+#div_menuh{
+    text-align: center;
+    background-color: black;
+    width: 800px;
+    height: 30px;
+    font-family: Arial;
+    font-size: 14px;
+    color: white;
+    padding-top: 10px;
+}
+
+#div_menuv {
+    width: 200px;
+    float: left;
+    background-color: silver;
+    height: 300px;
+}
+
+#div_conteudo{
+    width:400px ;
+    float:left;
+    background-color: white;
+    height: 300px;
+}
+#div_noticias{
+    width: 200px;
+    float: left;
+    background-color: silver;
+    height: 300px;
+}
+#div_rodape{
+    background-color: #6959CD;
+    width: 800px;
+    height: 100px;
+    clear: both;
+}
