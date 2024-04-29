@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Login</legend>
+
+            <label>Login:</label>
+            <input type="email" placeholder="Digite seu email">
+
+            <label> Senha:</label>
+            <input type="password" placeholder="Digite sua senha">
+
+        </fieldset>
+        <fieldset>
+            <legend> Outras informaçoes</legend>
+
+            <label>Sexo:</label><br>
+
+            <input type="radio" id="id_Masculino" name="Masculino">
+            <label>Masculino</label>
+
+            <input type="radio" id="id_Feminino" name="Feminino">
+            <label>Feminino</label><br><br>
+
+            <label> Deseja Receber informaçoes por:</label><br>
+            <input type="checkbox" id="id_Email" name="email">
+            <label>Email</label>
+
+            <input type="checkbox" id="id_Telefone" name="Telefone">
+            <label>Telefone</label>
+
+            <input type="checkbox" id="id_Correio" name="Correio">
+            <label>Correio</label><br><br>
+
+            <label>Selecione a cor:</label>
+            <input type="color"> <br><br>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Datas importantes</legend>
+
+            <label>Selecione uma data:</label>
+            <input type="date"><br><br>
+
+            <label>Selecione uma data antes de 01/01/2012 </label>
+            <input type="date"><br><br>
+
+            <label>Selecione uma data depois de 01/01/2012</label>
+            <input type="date"><br><br>
+
+            <label>Selecione uma data e um horário:</label>
+            <input type="datetime-local">
+
+        </fieldset>
+        <input type="reset" value="Limpe os dados do formularrio">
+        <input type="submit" value="Envie o Formulario">
+        
+
+    </form>
+
+</body>
+
+</html>
