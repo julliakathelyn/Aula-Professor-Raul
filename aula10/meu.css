@@ -1,0 +1,122 @@
+body{
+    
+    background-image: url(https://images.pexels.com/photos/2387532/pexels-photo-2387532.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: scroll;
+    background-size: cover;
+
+}
+#container{
+    width: 800px;
+    margin-top: 50px;
+    margin-left: 100px;
+    text-align: center;
+    background-color: white;
+}
+
+.div_cabecalho {
+    background-image: url(https://cdn.pixabay.com/photo/2020/10/14/16/04/halloween-5654770_640.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: scroll;
+    background-size: cover;
+    background-color: #6959CD;
+    text-align: center;
+    padding-top: 30px;
+    width: 800px;
+    height: 100px;
+    font-family: Arial;
+    font-size: 30px;
+    font-style: italic;
+    color: black;
+    font-weight: bold;
+}
+
+#div_menuh{
+    text-align: center;
+    background-color: black;
+    width: 800px;
+    height: 30px;
+    font-family: Arial;
+    font-size: 14px;
+    color: white;
+    padding-top: 10px;
+}
+#div_menuh ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;    
+}
+
+#div_menuh li{
+    display: inline;
+}
+
+#div_menuh ul li a {
+    padding: 2px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    border-bottom: 3px solid white;
+
+}
+#div_menuh ul li a:hover{
+    color:6D6D6D;
+    border-bottom: 3px solid slateblue;
+}
+
+#div_menuv {
+    width: 200px;
+    float: left;
+    background-color: silver;
+    height: 300px;
+}
+
+#div_menuv ul{
+    display: block;
+}
+
+#div_menuv ul>li{
+    padding: 2px 10px;
+    text-align: left;
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+#div_menuv ul li>a{
+    padding: 5px 10px;
+    display: inline-block;
+    color: slateblue;
+    text-decoration: none;
+    border-bottom: 3px solid #EDEDED;
+}
+
+#div_conteudo{
+    width:400px ;
+    float:left;
+    background-color: white;
+    height: 300px;
+}
+
+#div_conteudo img {
+    width:400px
+    
+}
+
+#div_noticias{
+    width: 200px;
+    float: left;
+    background-color: silver;
+    height: 300px;
+}
+#div_rodape{
+    background-image: url(https://cdn.pixabay.com/photo/2020/10/14/16/04/halloween-5654770_640.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: scroll;
+    background-size: cover;
+    width: 800px;
+    height: 100px;
+    clear: both;
+}
