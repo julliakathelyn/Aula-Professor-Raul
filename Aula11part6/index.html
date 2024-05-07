@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <span id="resultado">Resultado</span><br>
+    <form>
+        <label for="n1">N1</label>
+        <input type="number" id="n1">
+
+        <label for="n2">N2</label>
+        <input type="number" id="n2">
+
+        <input type="button" onclick="document.getElementById('resultado').innerHTML = multiplicar();" value="Multiplicar">
+    </form>
+
+
+    <script>
+        function multiplicar(){
+            var n1 = document.getElementById("n1").value;
+            var n2 = document.getElementById("n2").value;
+            var resultado = Number(n1)*Number(n2);
+            return resultado;
+        }
+        
+        </script>
+
+</body>
+
+</html>
