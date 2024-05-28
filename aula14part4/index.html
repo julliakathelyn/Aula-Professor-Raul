@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html ng-app="carrinhoApp">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seu Carrinho De Compras </title>
+    <script src="angular.js"></script>
+    <script src="controller_carrinho.js"></script>
+</head>
+<body>
+    <h1> Seu Pedido </h1>
+    <div ng-repeat="item in items">
+        <p>{{item.nome}}</p>
+        <input ng-model="item.quantidade">
+        <p>{{item.preco | currency}}</p>
+        <p>{{item.preco * item.quantidade | currency}}</p>
+        <button ng-click ="remove($index)">Remover íten</button>
+        <hr>
+    </div>
+</body>
+</html>
